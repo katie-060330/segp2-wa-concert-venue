@@ -1,0 +1,77 @@
+.connect-with-others {
+  display: flex;
+  flex-direction: column;
+}
+
+.connectingwothers {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex: 1; /* Allows both sections to stretch equally */
+}
+
+.connectingwothers h3 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.connectingwothers .social-media,
+.connectingwothers .forum {
+  flex: 1;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.connectingwothers .social-media ul,
+.connectingwothers .forum p {
+  flex: 1;
+}
+
+.connectingwothers .social-media h3,
+.connectingwothers .forum h3 {
+  margin-bottom: 10px;
+}
+
+.connectingwothers ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; /* Align items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.connectingwothers ul li {
+  margin: 0 1px; /* Adjust spacing between items */
+}
+
+.connectingwothers ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.connectingwothers ul li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .connectingwothers {
+    flex-direction: column;
+  }
+
+  .connectingwothers .social-media,
+  .connectingwothers .forum {
+    margin: 10px 0;
+  }
+}
+
+.social-media a {
+  font-size: 20px;
+  line-height: 2.6;
+}
+
+.social-media img {
+  padding-top: 10px;
+  width: 80px;
+  height: 80px;
+}

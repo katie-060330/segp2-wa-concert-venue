@@ -1,0 +1,79 @@
+.faq-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .faq {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .faq h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  
+  .faq ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .faq ul li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .faq ul li p {
+    margin: 5px 0;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group textarea {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color:#ebb319;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+  }
+  
+  button:hover {
+    background-color: #b68a12;
+  }
+  
+  @media (max-width: 768px) {
+    .faq h2 {
+      font-size: 24px;
+    }
+  
+    .form-group textarea {
+      height: 50px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  

@@ -1,0 +1,27 @@
+.event-details {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'om';
+}
+
+.event-details h2 {
+  margin-top: 0;
+}
+
+.event-details button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f58318;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.event-details button:hover {
+  background-color: #d47213;
+}
+.event-details{
+  text-align: left;
+}

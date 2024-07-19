@@ -1,0 +1,53 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ebb319;
+  color: #fff;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li {
+  cursor: pointer;
+}
+
+footer {
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  padding: 20px;
+}
+button{
+  font-family: 'om';
+ 
+}
+button{
+  font-family: 'om';
+ 
+}

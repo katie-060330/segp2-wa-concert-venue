@@ -1,0 +1,30 @@
+.calendar {
+    padding: 20px;
+    font-family: 'om';
+    
+  }
+  
+  .calendar div {
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  .custom-event {
+    white-space: nowrap; 
+    overflow: visible; 
+    text-overflow: initial; 
+    font-family: 'om';
+  }
+  
+  .rbc-event {
+    white-space: nowrap; 
+    overflow: visible; 
+    text-overflow: initial; 
+    padding: 2px 4px; 
+  }
+  
+  .rbc-event-content {
+    overflow: visible !important; /* Ensure content is visible */
+    text-overflow: initial !important; /* Prevent truncation */
+  }
+  
+  

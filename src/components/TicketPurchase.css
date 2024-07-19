@@ -1,0 +1,71 @@
+.ticket-purchase {
+
+
+  font-family: 'om';
+  margin: 50px;
+  text-align: center;
+}
+
+.ticket-purchase h2, .ticket-purchase h3 {
+  text-align: center;
+  color: #000;
+}
+ button.button {
+  position: absolute;
+  top: 10px; /* Adjust the distance from the top as needed */
+  right: 10px; /* Adjust the distance from the right as needed */
+  padding: 10px 20px; /* Adjust padding for button size */
+  background-color: #007bff; /* Example background color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+
+}
+
+.ticket-purchase input {
+  width: 95%;
+  padding: 10px;
+  margin: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.ticket-purchase button {
+  width: 30%;
+  padding: 10px;
+  background-color: #ebb319;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'om';
+  font-weight: bold;
+ 
+}
+
+.ticket-purchase button:hover {
+  background-color: #d49d17;
+}
+
+.ticket-purchase .form-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.ticket-purchase .form-group input {
+  flex: 1;
+}
+
+
+
+
+
+
+.ticket-purchase h2{
+  font-size: 30px;
+}
